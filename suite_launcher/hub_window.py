@@ -44,7 +44,7 @@ class HubWindow(QMainWindow):
             SuiteApp(
                 name="🎬 Movies Hub",
                 description="Browse our featured movie and TV show collections.",
-                entry_point=os.path.join(root, "MoviesHub-main - Copy", "moviehub.py"),
+                entry_point=os.path.join(root, "MoviesHub", "moviehub.py"),
             ),
             SuiteApp(
                 name="🎧 Music Media Player",

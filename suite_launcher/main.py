@@ -5,9 +5,9 @@ from PyQt5.QtWidgets import QApplication, QMessageBox, QDialog
 try:
     from .hub_window import HubWindow
     from .login_dialog import LoginDialog
-except ImportError:  # When executed as a standalone script
-    from hub_window import HubWindow  # type: ignore
-    from login_dialog import LoginDialog  # type: ignore
+except ImportError:  
+    from hub_window import HubWindow  
+    from login_dialog import LoginDialog  
 
 
 def main():
