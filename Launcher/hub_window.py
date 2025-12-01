@@ -49,12 +49,12 @@ class HubWindow(QMainWindow):
             SuiteApp(
                 name="🎧 Music Media Player",
                 description="Full media player with playlists and theming.",
-                entry_point=os.path.join(root, "siamusic - Copy", "main.py"),
+                entry_point=os.path.join(root, "Music", "main.py"),
             ),
             SuiteApp(
                 name="🧩 Jigsaw Game",
                 description="Solve puzzles with dynamic gallery selection.",
-                entry_point=os.path.join(root, "jigsaw_app - Copy", "main.py"),
+                entry_point=os.path.join(root, "Game", "main.py"),
             ),
         ]
 

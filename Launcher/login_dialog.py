@@ -13,7 +13,7 @@ from PyQt5.QtWidgets import (
 
 # Re-use the existing authentication logic from the siamusic project.
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SIAMUSIC_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "siamusic - Copy"))
+SIAMUSIC_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "Music"))
 
 if SIAMUSIC_DIR not in sys.path:
     sys.path.append(SIAMUSIC_DIR)
